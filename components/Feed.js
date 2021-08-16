@@ -1,6 +1,6 @@
 import InputBox from "./InputBox";
 import Posts from "./Posts";
-import Stories from "./stories";
+import Stories from "./Stories";
 
 function Feed({ posts }) {
   return (
