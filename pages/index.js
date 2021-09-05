@@ -8,8 +8,8 @@ import Widgets from "../components/Widgets";
 import { db } from "../firebase";
 
 export default function Home({ session, posts }) {
-  // if (!session) return <Login />;
-  // console.log(session);
+  if (!session) return <Login />;
+  console.log(session);
   return (
     <div className="h-screen bg-gray-100 overflow-hidden">
       <Head>
