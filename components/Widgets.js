@@ -31,7 +31,7 @@ const contacts = [
     src: "https://links.papareact.com/r57",
     name: "James Bond",
   },
-];
+];``
 
 function Widgets() {
   return (
